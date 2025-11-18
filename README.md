@@ -1,4 +1,4 @@
-# simple_course_enrollment_app
+# Simple Course Enrollment App
 
 A new Flutter project.
 
