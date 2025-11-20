@@ -33,7 +33,7 @@ class _StudentFormScreenState extends State<StudentFormScreen> {
 
   String? _validateEmail(String? v) {
     if (v == null || v.trim().isEmpty) return 'Email is required';
-    final emailRegex = RegExp(r'^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}\$');
+    final emailRegex = RegExp(r'^[\w.-]+@([\w-]+\.)+[\w-]{2,4}$');
     if (!emailRegex.hasMatch(v.trim())) return 'Enter a valid email';
     return null;
   }
