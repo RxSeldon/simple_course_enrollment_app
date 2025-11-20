@@ -19,7 +19,7 @@ class Student {
   }) {
     return Student(
       firstName: firstName ?? this.firstName,
-      lastName: lasatName ?? this.lastName,
+      lastName: lasatName ?? lastName,
       email: email ?? this.email,
       studentID: studentID ?? this.studentID,
     );

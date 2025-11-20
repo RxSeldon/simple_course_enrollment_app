@@ -50,7 +50,7 @@ class CourseSelectionScreen extends StatelessWidget {
         itemCount: courses.length,
         itemBuilder: (context, index) {
           final course = courses[index];
-          final selected = provider.selectedCourses?.id == course.id;
+          final selected = provider.selectedCourse?.id == course.id;
 
           return Card(
             child: ListTile(

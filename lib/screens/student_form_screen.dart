@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:simple_course_enrollment_app/models/student.dart';
 import 'package:simple_course_enrollment_app/providers/enrollment_provider.dart';
 
-
-class StudentFormScreen extends StatelessWidget {
+class StudentFormScreen extends StatefulWidget {
   const StudentFormScreen({super.key});
 
   @override
   State<StudentFormScreen> createState() => _StudentFormScreenState();
-
 }
 
 class _StudentFormScreenState extends State<StudentFormScreen> {
@@ -48,13 +47,11 @@ class _StudentFormScreenState extends State<StudentFormScreen> {
       lastName: _lastNameCtrl.text.trim(),
       email: _emailCtrl.text.trim(),
       studentID: _studentIDCtrl.text.trim(),
-
     );
 
-    Provider.of<EnrollmentProvider>(context, listen: false)
-      .setStudent(student);
+    Provider.of<EnrollmentProvider>(context, listen: false).setStudent(student);
 
-      Navigator.pushNamed(context, '/courses');
+    Navigator.pushNamed(context, '/courses');
   }
 
   @override
@@ -97,9 +94,8 @@ class _StudentFormScreenState extends State<StudentFormScreen> {
               ),
             ],
           ),
-        ) ,
+        ),
       ),
     );
   }
-
 }

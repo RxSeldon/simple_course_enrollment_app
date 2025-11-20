@@ -7,9 +7,7 @@ class EnrollmentProvider extends ChangeNotifier {
   Course? _selectedCourse;
 
   Student? get student => _student;
-  Course? _selectedCourse;
-
-  Student? get student => _selectedCourse;
+  Course? get selectedCourse => _selectedCourse;
 
   void setStudent(Student student) {
     _student = student;

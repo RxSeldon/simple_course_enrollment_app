@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:simple_course_enrollment_app/providers/enrollment_provider.dart';
 import 'package:simple_course_enrollment_app/screens/intro_screen.dart';
 import 'package:simple_course_enrollment_app/screens/student_form_screen.dart';
+import 'package:simple_course_enrollment_app/screens/course_selection_screen.dart';
+import 'package:simple_course_enrollment_app/screens/review_screen.dart';
 
 void main() {
   runApp(const MyApp());
