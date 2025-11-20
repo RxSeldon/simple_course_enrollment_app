@@ -42,6 +42,24 @@ class CourseSelectionScreen extends StatelessWidget {
           credits: 3,
           instructor: 'Mr. Vicente Patalita III',
         ),
+        Course(
+          id: 'CYBS106',
+          name: 'Cybersecurity',
+          credits: 3,
+          instructor: 'Mr. Ahdzleebee Formentera',
+        ),
+        Course(
+          id: 'TECHNO107',
+          name: 'Technopreneurship',
+          credits: 3,
+          instructor: 'Mr. James Aliazon',
+        ),
+        Course(
+          id: 'DTASTRCT108',
+          name: 'Data Structures',
+          credits: 3,
+          instructor: 'Mr. Leeroy Gadiane',
+        ),
       ];
 
   @override
