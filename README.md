@@ -35,18 +35,8 @@ flutter run -d edge
 flutter run -d <device_id>
 
 **PROJECT STRUCTURE**
-lib/
-├── models/
-│   ├── course.dart
-│   └── student.dart
-├── providers/
-│   └── enrollment_provider.dart
-├── screens/
-│   ├── course_selection_screen.dart
-│   ├── intro_screen.dart
-│   ├── review_screen.dart
-│   └── student_form_screen.dart
-└── main.dart
+
+<img width="524" height="406" alt="image" src="https://github.com/user-attachments/assets/0ef640f8-3047-4e8e-b921-559b7443d639" />
 
 🛠 Tech Used
 Technology	Purpose
