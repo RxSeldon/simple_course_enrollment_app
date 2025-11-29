@@ -1,16 +1,73 @@
 # Simple Course Enrollment App
 
-A new Flutter project.
+A Flutter-based course enrollment system.
 
-## Getting Started
+📱 EduNova – Course Enrollment App
 
-This project is a starting point for a Flutter application.
+EduNova is a simple yet functional mobile application built with Flutter that allows students to input their basic information and enroll in a selected course. The main goal of the app is to demonstrate UI design, navigation between screens, and basic form handling.
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Getting Started
+Prerequisites
+Flutter SDK (latest stable version)
+Dart SDK
+Android Studio / VS Code
+Android SDK for mobile development
+Chrome/Edge for web development
+Installation
+Clone the repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git clone https://github.com/yourusername/flutter-course-enrollment-app.git
+cd flutter-course-enrollment-app/my_course_app
+Install dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub get
+Generate provider files
+
+dart run build_runner build --delete-conflicting-outputs
+Run the app
+
+# For web
+flutter run -d edge
+
+# For Android
+flutter run -d <device_id>
+
+**PROJECT STRUCTURE**
+lib/
+├── models/
+│   ├── course.dart
+│   └── student.dart
+├── providers/
+│   └── enrollment_provider.dart
+├── screens/
+│   ├── course_selection_screen.dart
+│   ├── intro_screen.dart
+│   ├── review_screen.dart
+│   └── student_form_screen.dart
+└── main.dart
+
+🛠 Tech Used
+Technology	Purpose
+Flutter	UI framework for building the app
+Dart	Programming language
+Provider / State Management (optional)	Manages student & course data
+Material UI	Styling & UI components
+
+📌 Upcoming Improvements
+
+⬆ Local data storage (Hive/SQLite/Firebase)
+
+📝 Enrollment summary page
+
+👤 User account system
+
+🎨 Theme switching (light/dark)
+
+**APPLICATION SCREENSHOTS**
+![welcome](https://github.com/user-attachments/assets/71e2614c-b3e5-43d1-a51c-00a4d73aa3c1)
+![input details](https://github.com/user-attachments/assets/d292b46c-e509-4718-88ac-3e53872c711b)
+![course selection2](https://github.com/user-attachments/assets/f4bbdd5f-bc47-42df-a14c-7d5a350cb0fd)
+![course selection](https://github.com/user-attachments/assets/ca420e41-1a9d-4be3-a657-9e47355aea87)
+![review enrollment](https://github.com/user-attachments/assets/25b10694-1a82-493f-8df2-d9eb925fa2fb)
+![confirmation](https://github.com/user-attachments/assets/bc10504a-03bd-4f6d-9186-1f74806ffb8a)
+![success](https://github.com/user-attachments/assets/2d3fefa2-3119-4c65-8ed8-f5f1938d1323)
