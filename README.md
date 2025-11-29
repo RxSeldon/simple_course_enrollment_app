@@ -4,7 +4,7 @@ A Flutter-based course enrollment system.
 
 ![welcome](https://github.com/user-attachments/assets/71e2614c-b3e5-43d1-a51c-00a4d73aa3c1)
 
-📱 EduNova – Course Enrollment App
+# 📱 EduNova – Course Enrollment App
 
 EduNova is a simple yet functional mobile application built with Flutter that allows students to input their basic information and enroll in a selected course. The main goal of the app is to demonstrate UI design, navigation between screens, and basic form handling.
 
@@ -28,24 +28,24 @@ Generate provider files
 dart run build_runner build --delete-conflicting-outputs
 Run the app
 
-# For web
+**For web**
 flutter run -d edge
 
-# For Android
+**For Android**
 flutter run -d <device_id>
 
-**PROJECT STRUCTURE**
+# **PROJECT STRUCTURE**
 
 <img width="524" height="406" alt="image" src="https://github.com/user-attachments/assets/0ef640f8-3047-4e8e-b921-559b7443d639" />
 
-🛠 Tech Used
+# 🛠 Tech Used
 Technology	Purpose
 Flutter	UI framework for building the app
 Dart	Programming language
 Provider / State Management (optional)	Manages student & course data
 Material UI	Styling & UI components
 
-📌 Upcoming Improvements
+# 📌 Upcoming Improvements
 
 ⬆ Local data storage (Hive/SQLite/Firebase)
 
@@ -55,7 +55,7 @@ Material UI	Styling & UI components
 
 🎨 Theme switching (light/dark)
 
-**APPLICATION SCREENSHOTS**
+# **APPLICATION SCREENSHOTS**
 
 ![input details](https://github.com/user-attachments/assets/d292b46c-e509-4718-88ac-3e53872c711b)
 ![course selection2](https://github.com/user-attachments/assets/f4bbdd5f-bc47-42df-a14c-7d5a350cb0fd)
